@@ -193,4 +193,30 @@ footer ul li:first-child{
     footer{
         font-size: 2.25vw;
     }
+} 
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    header section.hero section div h1.h1{
+        width: 65.125vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    header section.hero section div p{
+        text-align: center;
+    }
+    a.header{
+        position: relative;
+        left: 40%;
+        margin-bottom: 40vh;
+    }
+    .ellipse{
+        margin: 0 auto;
+        
+    }
+    .bottom{
+        margin-top: 30px;
+    }
+    
+    
 }
