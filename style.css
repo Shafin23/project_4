@@ -177,7 +177,7 @@ footer ul li:first-child{
     }
     header section.hero section div a.btn{
         position: relative;
-        left: 41%;
+        width: 96vw;
         margin-bottom: 15vh;
     }
     main section.course div div{
