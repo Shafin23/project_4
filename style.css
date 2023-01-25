@@ -1,0 +1,196 @@
+header {
+    background-color: #F0FFF0;
+    ;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: black;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+header section.hero section div p {
+    color: #FD511A;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins';
+}
+
+header section.hero section div h1.h1 {
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    width: 32.125vw;
+}
+
+header section.hero section div h1.h1 span {
+    color: #21B573;
+}
+
+header section.hero section div article {
+    color: #6C6B6B;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+header section.hero section div a.btn {
+    background-color:
+        #21B573;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 33px;
+    color: white;
+}
+
+
+
+
+
+
+main section.feature div div img {
+    width: 20% !important;
+}
+
+main section.feature div div h6 {
+    font-family: 'Poppins';
+    /* font-style: normal; */
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+
+main section.feature div div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+
+}
+
+main section.feature div div:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+
+main section.course h1.h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    text-align: center;
+}
+
+main section.course div div img {}
+
+main section.course div div h5 {
+    font-family: 'Poppins';
+    /* font-style: normal; */
+    /* font-weight: 500; */
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+
+
+}
+
+main section.course div div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+
+}
+
+main section.course div div a {
+    background-color: #21B573;
+    background: #21B573;
+    border-radius: 33px;
+
+}
+
+main section.course div div {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+main section.course div div .bot {
+    font-family: 'Poppins';
+    /* font-style: normal; */
+    font-weight: 500;
+    /* font-size: 16px; */
+    line-height: 24px;
+    color: #585859;
+}
+
+
+
+main section.testimonial h1.h1 {
+    font-family: 'Poppins';
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+
+
+footer{
+    background-color:#282531;
+    color: white;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li:first-child{
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width:764px) {
+    header section.hero section div p{
+        text-align: center;
+        
+    }
+    header section.hero section div h1.h1{
+        width: 65.125vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    header section.hero section div a.btn{
+        position: relative;
+        left: 41%;
+        margin-bottom: 15vh;
+    }
+    main section.course div div{
+        margin-bottom: 30px;
+    }
+    .ellipse{
+        margin: 0 auto;
+        
+    }
+    .bottom{
+        margin-top: 30px;
+    }
+    footer{
+        font-size: 2.25vw;
+    }
+}
