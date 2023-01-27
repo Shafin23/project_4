@@ -96,7 +96,7 @@ main section.course h1.h1 {
     text-align: center;
 }
 
-main section.course div div img {}
+
 
 main section.course div div h5 {
     font-family: 'Poppins';
@@ -130,6 +130,7 @@ main section.course div div {
     background: #FFFFFF;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
+    width: 335px;
 }
 
 main section.course div div .bot {
@@ -220,3 +221,4 @@ footer ul li:first-child{
     
     
 }
+
